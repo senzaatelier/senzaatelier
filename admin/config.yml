@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: KULLANICI_ADIN/REPO_ADI   # GitHub kullanıcı adı / repo adı
+  repo: senzaadmin/senza-atelier   # GitHub kullanıcı adı / repo adı
   branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
