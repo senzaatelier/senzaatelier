@@ -1,0 +1,10 @@
+{
+  "urunler": [
+    {"ad": "Atelier Tote Çanta", "kat": "Çanta", "fiyat": 1450, "etiket": "Yeni", "foto": "", "renk": "#D9C7AE"},
+    {"ad": "Mini Omuz Çantası", "kat": "Çanta", "fiyat": 1180, "etiket": "", "foto": "", "renk": "#C9B398"},
+    {"ad": "Seramik Vazo", "kat": "Ev", "fiyat": 690, "etiket": "Çok Satan", "foto": "", "renk": "#E5D8C6"},
+    {"ad": "Keten Kırlent Kılıfı", "kat": "Ev", "fiyat": 420, "etiket": "", "foto": "", "renk": "#D6C6B0"},
+    {"ad": "Pamuk Havlu Seti", "kat": "Banyo", "fiyat": 890, "etiket": "Yeni", "foto": "", "renk": "#EADFD1"},
+    {"ad": "Banyo Aksesuar Seti", "kat": "Banyo", "fiyat": 760, "etiket": "", "foto": "", "renk": "#CDBFAE"}
+  ]
+}

@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: KULLANICI_ADIN/REPO_ADI   # GitHub kullanıcı adı / repo adı
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+locale: tr
+media_folder: images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: magaza
+    label: Ürünler
+    files:
+      - name: urunler
+        label: Tüm Ürünler
+        file: data/urunler.json
+        fields:
+          - label: Ürün Listesi
+            name: urunler
+            widget: list
+            label_singular: Ürün
+            summary: "{{fields.ad}} · {{fields.fiyat}} ₺"
+            fields:
+              - { label: Ürün Adı, name: ad, widget: string }
+              - { label: Kategori, name: kat, widget: select, options: [Çanta, Ev, Banyo] }
+              - { label: Fiyat (₺), name: fiyat, widget: number, value_type: int, min: 0 }
+              - { label: Fotoğraf, name: foto, widget: image, required: false, hint: "Dikey (3:4) fotoğraf en güzel görünür" }
+              - { label: Etiket, name: etiket, widget: select, options: ["", "Yeni", "Çok Satan", "İndirimde", "Son Adet"], default: "", required: false }
+              - { label: Arka Plan Rengi (foto yoksa), name: renk, widget: color, default: "#E5D8C6", required: false }
